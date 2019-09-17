@@ -9,6 +9,14 @@ language:
     tab: 'Tabela '
 
 ui:
-  chapter_name: 'Capítulo '
+  chapter_name: 'CapÃ­tulo '
   
 before_chapter_script: "_util.R"
+
+rmd_files: [
+  "index.rmd",
+  "01-sobre-r.rmd",
+  "02-manipulacao.rmd",
+  "03-joins.rmd",
+  "04-visualizacao.rmd"
+]

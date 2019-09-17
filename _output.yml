@@ -3,9 +3,5 @@ bookdown::gitbook:
     toc:
       collapse: section
       before: |
-        <li><strong><a href="./">Curso R Relâmpago</a></strong></li>
+        <li><strong><a href="./">Curso R</a></strong></li>
     sharing: no
-    download: ["pdf"]
-    
-bookdown::pdf_book:
-  latex_engine: xelatex
