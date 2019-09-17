@@ -96,7 +96,7 @@ gap_cont %>%
 
 (@) **Faça um heatmap considerando apenas os países da `asia`, onde no eixo x temos o `year`, no eixo y o `country` e na dimensão de preenchimento `lifeExp`**
 
-Dicas: summarize, left_join, geom_text, nudge_y.
+Dicas: filter, geom_tile.
 
 ```{r eval=TRUE, echo=FALSE}
 gap_cont %>% 

@@ -8,7 +8,7 @@ documentclass: book
 
 <br>
 
-# Apresentação
+# Apresentação {-}
 
 Instrutor: Ítalo Cegatta  
 Local: UFRRJ, Seropédica, RJ  

@@ -138,7 +138,7 @@ anti_join(x, y)
 
 (@) **Faça um heatmap considerando apenas os países da `asia`, onde no eixo x temos o `year`, no eixo y o `country` e na dimensão de preenchimento `lifeExp`**
 
-Dicas: summarize, left_join, geom_text, nudge_y.
+Dicas: filter, geom_tile.
 
 <img src="03-joins_files/figure-html/unnamed-chunk-11-1.png" width="672" />
 
