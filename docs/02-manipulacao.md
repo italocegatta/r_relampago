@@ -1,5 +1,4 @@
-
-# (PART\*) Dia I  {-}
+# (PART\*) Parte I  {-}
 
 # Manipulação de dados {-}
 

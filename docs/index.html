@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="" xml:lang="">
 <head>
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>R para análise de dados</title>
   <meta name="description" content="R para análise de dados" />
-  <meta name="generator" content="bookdown 0.13 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.19 and GitBook 2.6.7" />
 
   <meta property="og:title" content="R para análise de dados" />
   <meta property="og:type" content="book" />
@@ -39,6 +39,9 @@
 <link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
 
 
 
@@ -128,54 +131,54 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Apresentação</a><ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#requisitos"><i class="fa fa-check"></i>Requisitos</a><ul>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#dia-1---introducao-a-linguagem-r-e-processamento-basico-de-dados"><i class="fa fa-check"></i>Dia 1 - Introdução à linguagem R e Processamento Básico de dados</a></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#dia-2---visualizacao-de-dados-e-estatistica-experimental"><i class="fa fa-check"></i>Dia 2 - Visualização de dados e estatística experimental</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#parte-1---introdução-à-linguagem-r-e-processamento-básico-de-dados"><i class="fa fa-check"></i>Parte 1 - Introdução à linguagem R e Processamento Básico de dados</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#parte-2---visualização-de-dados-e-estatística-experimental"><i class="fa fa-check"></i>Parte 2 - Visualização de dados e estatística experimental</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="sobre-o-r.html"><a href="sobre-o-r.html"><i class="fa fa-check"></i>Sobre o R</a><ul>
 <li class="chapter" data-level="" data-path="sobre-o-r.html"><a href="sobre-o-r.html#download-do-r-e-rstudio"><i class="fa fa-check"></i>Download do R e RStudio</a></li>
 </ul></li>
-<li class="part"><span><b>Dia I</b></span></li>
-<li class="chapter" data-level="" data-path="manipulacao-de-dados.html"><a href="manipulacao-de-dados.html"><i class="fa fa-check"></i>Manipulação de dados</a><ul>
-<li class="chapter" data-level="" data-path="manipulacao-de-dados.html"><a href="manipulacao-de-dados.html#warm-up"><i class="fa fa-check"></i>Warm-Up</a><ul>
-<li class="chapter" data-level="" data-path="manipulacao-de-dados.html"><a href="manipulacao-de-dados.html#conhecendo-os-dados"><i class="fa fa-check"></i>Conhecendo os dados</a></li>
-<li class="chapter" data-level="" data-path="manipulacao-de-dados.html"><a href="manipulacao-de-dados.html#qual-o-lucro-medio-dos-filmes"><i class="fa fa-check"></i>Qual o lucro médio dos filmes?</a></li>
+<li class="part"><span><b>Parte I</b></span></li>
+<li class="chapter" data-level="" data-path="manipulação-de-dados.html"><a href="manipulação-de-dados.html"><i class="fa fa-check"></i>Manipulação de dados</a><ul>
+<li class="chapter" data-level="" data-path="manipulação-de-dados.html"><a href="manipulação-de-dados.html#warm-up"><i class="fa fa-check"></i>Warm-Up</a><ul>
+<li class="chapter" data-level="" data-path="manipulação-de-dados.html"><a href="manipulação-de-dados.html#conhecendo-os-dados"><i class="fa fa-check"></i>Conhecendo os dados</a></li>
+<li class="chapter" data-level="" data-path="manipulação-de-dados.html"><a href="manipulação-de-dados.html#qual-o-lucro-médio-dos-filmes"><i class="fa fa-check"></i>Qual o lucro médio dos filmes?</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="manipulacao-de-dados.html"><a href="manipulacao-de-dados.html#sobre-o-tidyverse"><i class="fa fa-check"></i>Sobre o Tidyverse</a><ul>
-<li class="chapter" data-level="" data-path="manipulacao-de-dados.html"><a href="manipulacao-de-dados.html#filter"><i class="fa fa-check"></i>Filter</a></li>
-<li class="chapter" data-level="" data-path="manipulacao-de-dados.html"><a href="manipulacao-de-dados.html#arrange"><i class="fa fa-check"></i>Arrange</a></li>
-<li class="chapter" data-level="" data-path="manipulacao-de-dados.html"><a href="manipulacao-de-dados.html#select"><i class="fa fa-check"></i>Select</a></li>
-<li class="chapter" data-level="" data-path="manipulacao-de-dados.html"><a href="manipulacao-de-dados.html#mutate"><i class="fa fa-check"></i>Mutate</a></li>
-<li class="chapter" data-level="" data-path="manipulacao-de-dados.html"><a href="manipulacao-de-dados.html#summarise"><i class="fa fa-check"></i>Summarise</a></li>
-<li class="chapter" data-level="" data-path="manipulacao-de-dados.html"><a href="manipulacao-de-dados.html#operador"><i class="fa fa-check"></i>Operador %&gt;%</a></li>
-<li class="chapter" data-level="" data-path="manipulacao-de-dados.html"><a href="manipulacao-de-dados.html#graficos-rapidos"><i class="fa fa-check"></i>Gráficos rápidos</a></li>
+<li class="chapter" data-level="" data-path="manipulação-de-dados.html"><a href="manipulação-de-dados.html#sobre-o-tidyverse"><i class="fa fa-check"></i>Sobre o Tidyverse</a><ul>
+<li class="chapter" data-level="" data-path="manipulação-de-dados.html"><a href="manipulação-de-dados.html#filter"><i class="fa fa-check"></i>Filter</a></li>
+<li class="chapter" data-level="" data-path="manipulação-de-dados.html"><a href="manipulação-de-dados.html#arrange"><i class="fa fa-check"></i>Arrange</a></li>
+<li class="chapter" data-level="" data-path="manipulação-de-dados.html"><a href="manipulação-de-dados.html#select"><i class="fa fa-check"></i>Select</a></li>
+<li class="chapter" data-level="" data-path="manipulação-de-dados.html"><a href="manipulação-de-dados.html#mutate"><i class="fa fa-check"></i>Mutate</a></li>
+<li class="chapter" data-level="" data-path="manipulação-de-dados.html"><a href="manipulação-de-dados.html#summarise"><i class="fa fa-check"></i>Summarise</a></li>
+<li class="chapter" data-level="" data-path="manipulação-de-dados.html"><a href="manipulação-de-dados.html#operador"><i class="fa fa-check"></i>Operador %&gt;%</a></li>
+<li class="chapter" data-level="" data-path="manipulação-de-dados.html"><a href="manipulação-de-dados.html#gráficos-rápidos"><i class="fa fa-check"></i>Gráficos rápidos</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="joins.html"><a href="joins.html"><i class="fa fa-check"></i>Joins</a><ul>
-<li class="chapter" data-level="" data-path="joins.html"><a href="joins.html#exercicios"><i class="fa fa-check"></i>Exercícios</a></li>
+<li class="chapter" data-level="" data-path="joins.html"><a href="joins.html#exercícios"><i class="fa fa-check"></i>Exercícios</a></li>
 </ul></li>
-<li class="part"><span><b>Dia II</b></span></li>
-<li class="chapter" data-level="" data-path="visualizacao.html"><a href="visualizacao.html"><i class="fa fa-check"></i>Visualização</a><ul>
-<li class="chapter" data-level="" data-path="visualizacao.html"><a href="visualizacao.html#conceitos-basicos"><i class="fa fa-check"></i>Conceitos básicos</a></li>
-<li class="chapter" data-level="" data-path="visualizacao.html"><a href="visualizacao.html#layers"><i class="fa fa-check"></i>Layers</a></li>
-<li class="chapter" data-level="" data-path="visualizacao.html"><a href="visualizacao.html#os-dados"><i class="fa fa-check"></i>Os dados</a></li>
-<li class="chapter" data-level="" data-path="visualizacao.html"><a href="visualizacao.html#a-camada-de-geometria"><i class="fa fa-check"></i>A camada de geometria</a></li>
-<li class="chapter" data-level="" data-path="visualizacao.html"><a href="visualizacao.html#a-camada-de-estatisticas"><i class="fa fa-check"></i>A camada de estatísticas</a></li>
-<li class="chapter" data-level="" data-path="visualizacao.html"><a href="visualizacao.html#edicoes-de-eixos"><i class="fa fa-check"></i>Edições de eixos</a></li>
-<li class="chapter" data-level="" data-path="visualizacao.html"><a href="visualizacao.html#aesthetics"><i class="fa fa-check"></i>Aesthetics</a></li>
-<li class="chapter" data-level="" data-path="visualizacao.html"><a href="visualizacao.html#grupos"><i class="fa fa-check"></i>Grupos</a></li>
-<li class="chapter" data-level="" data-path="visualizacao.html"><a href="visualizacao.html#geometrias"><i class="fa fa-check"></i>Geometrias</a><ul>
-<li class="chapter" data-level="" data-path="visualizacao.html"><a href="visualizacao.html#histograma-e-densidade"><i class="fa fa-check"></i>Histograma e Densidade</a></li>
-<li class="chapter" data-level="" data-path="visualizacao.html"><a href="visualizacao.html#densidade"><i class="fa fa-check"></i>Densidade</a></li>
-<li class="chapter" data-level="" data-path="visualizacao.html"><a href="visualizacao.html#boxplot"><i class="fa fa-check"></i>Boxplot</a></li>
-<li class="chapter" data-level="" data-path="visualizacao.html"><a href="visualizacao.html#vilolin-e-dotplot"><i class="fa fa-check"></i>Vilolin e dotplot</a></li>
-<li class="chapter" data-level="" data-path="visualizacao.html"><a href="visualizacao.html#barras"><i class="fa fa-check"></i>Barras</a></li>
-<li class="chapter" data-level="" data-path="visualizacao.html"><a href="visualizacao.html#texto"><i class="fa fa-check"></i>Texto</a></li>
+<li class="part"><span><b>Parte II</b></span></li>
+<li class="chapter" data-level="" data-path="visualização.html"><a href="visualização.html"><i class="fa fa-check"></i>Visualização</a><ul>
+<li class="chapter" data-level="" data-path="visualização.html"><a href="visualização.html#conceitos-básicos"><i class="fa fa-check"></i>Conceitos básicos</a></li>
+<li class="chapter" data-level="" data-path="visualização.html"><a href="visualização.html#layers"><i class="fa fa-check"></i>Layers</a></li>
+<li class="chapter" data-level="" data-path="visualização.html"><a href="visualização.html#os-dados"><i class="fa fa-check"></i>Os dados</a></li>
+<li class="chapter" data-level="" data-path="visualização.html"><a href="visualização.html#a-camada-de-geometria"><i class="fa fa-check"></i>A camada de geometria</a></li>
+<li class="chapter" data-level="" data-path="visualização.html"><a href="visualização.html#a-camada-de-estatísticas"><i class="fa fa-check"></i>A camada de estatísticas</a></li>
+<li class="chapter" data-level="" data-path="visualização.html"><a href="visualização.html#edições-de-eixos"><i class="fa fa-check"></i>Edições de eixos</a></li>
+<li class="chapter" data-level="" data-path="visualização.html"><a href="visualização.html#aesthetics"><i class="fa fa-check"></i>Aesthetics</a></li>
+<li class="chapter" data-level="" data-path="visualização.html"><a href="visualização.html#grupos"><i class="fa fa-check"></i>Grupos</a></li>
+<li class="chapter" data-level="" data-path="visualização.html"><a href="visualização.html#geometrias"><i class="fa fa-check"></i>Geometrias</a><ul>
+<li class="chapter" data-level="" data-path="visualização.html"><a href="visualização.html#histograma-e-densidade"><i class="fa fa-check"></i>Histograma e Densidade</a></li>
+<li class="chapter" data-level="" data-path="visualização.html"><a href="visualização.html#densidade"><i class="fa fa-check"></i>Densidade</a></li>
+<li class="chapter" data-level="" data-path="visualização.html"><a href="visualização.html#boxplot"><i class="fa fa-check"></i>Boxplot</a></li>
+<li class="chapter" data-level="" data-path="visualização.html"><a href="visualização.html#vilolin-e-dotplot"><i class="fa fa-check"></i>Vilolin e dotplot</a></li>
+<li class="chapter" data-level="" data-path="visualização.html"><a href="visualização.html#barras"><i class="fa fa-check"></i>Barras</a></li>
+<li class="chapter" data-level="" data-path="visualização.html"><a href="visualização.html#texto"><i class="fa fa-check"></i>Texto</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="visualizacao.html"><a href="visualizacao.html#escalas"><i class="fa fa-check"></i>Escalas</a></li>
-<li class="chapter" data-level="" data-path="visualizacao.html"><a href="visualizacao.html#scale_xy_continuous"><i class="fa fa-check"></i>scale_x|y_continuous</a></li>
-<li class="chapter" data-level="" data-path="visualizacao.html"><a href="visualizacao.html#escalas-de-cor"><i class="fa fa-check"></i>Escalas de cor</a></li>
-<li class="chapter" data-level="" data-path="visualizacao.html"><a href="visualizacao.html#facets"><i class="fa fa-check"></i>Facets</a></li>
+<li class="chapter" data-level="" data-path="visualização.html"><a href="visualização.html#escalas"><i class="fa fa-check"></i>Escalas</a></li>
+<li class="chapter" data-level="" data-path="visualização.html"><a href="visualização.html#scale_xy_continuous"><i class="fa fa-check"></i>scale_x|y_continuous</a></li>
+<li class="chapter" data-level="" data-path="visualização.html"><a href="visualização.html#escalas-de-cor"><i class="fa fa-check"></i>Escalas de cor</a></li>
+<li class="chapter" data-level="" data-path="visualização.html"><a href="visualização.html#facets"><i class="fa fa-check"></i>Facets</a></li>
 </ul></li>
 </ul>
 
@@ -198,38 +201,32 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h1 class="title">R para análise de dados</h1>
 <p class="author"><em>Ítalo Cegatta</em></p>
 </div>
-<div id="apresentacao" class="section level1 unnumbered">
+<div id="apresentação" class="section level1 unnumbered">
 <h1>Apresentação</h1>
 <p>Instrutor: Ítalo Cegatta<br />
-Local: UFRRJ, Seropédica, RJ<br />
-Dias: 19 e 20/09/2019<br />
-Horário: 09 às 11h30</p>
+Blog pessoal: <a href="https://italocegatta.github.io" class="uri">https://italocegatta.github.io</a><br />
+E-mail: <a href="mailto:italocegatta@gmail.com" class="email">italocegatta@gmail.com</a></p>
 <p><br></p>
 <div id="requisitos" class="section level2 unnumbered">
 <h2>Requisitos</h2>
 <ul>
+<li><a href="https://italocegatta.github.io/r_relampago">Material online</a></li>
 <li><a href="https://cran.r-project.org/bin/windows/base/">Software R</a></li>
 <li><a href="https://www.rstudio.com/products/rstudio/download/#download">Software RStudio</a></li>
 <li>Pacotes <code>install.packages(c("tidyverse", "readxl", "gapminder"))</code></li>
-<li>Dados
-<ul>
-<li><a href="https://github.com/italocegatta/r_relampago/raw/master/input/filmes_imdb.csv">filmes_imdb.csv</a></li>
-<li><a href="https://github.com/italocegatta/r_relampago/raw/master/input/inv_amazonia.xlsx">inv_amazonia.xlsx</a></li>
-<li><a href="https://github.com/italocegatta/r_relampago/raw/master/input/continents.xlsx">continents.xlsx</a></li>
-<li><a href="https://github.com/italocegatta/r_relampago/raw/master/input/TUME_134_2016.xlsx">TUME_134_2016.xlsx</a></li>
-</ul></li>
+<li><a href="https://github.com/italocegatta/r_relampago/raw/master/input/dados.zip">Bases de dados</a></li>
 </ul>
 <p><br></p>
-<div id="dia-1---introducao-a-linguagem-r-e-processamento-basico-de-dados" class="section level3 unnumbered">
-<h3>Dia 1 - Introdução à linguagem R e Processamento Básico de dados</h3>
+<div id="parte-1---introdução-à-linguagem-r-e-processamento-básico-de-dados" class="section level3 unnumbered">
+<h3>Parte 1 - Introdução à linguagem R e Processamento Básico de dados</h3>
 <ul>
 <li>Linguagem R e RStudio</li>
 <li>Manipulação de dados</li>
 </ul>
 <p><br></p>
 </div>
-<div id="dia-2---visualizacao-de-dados-e-estatistica-experimental" class="section level3 unnumbered">
-<h3>Dia 2 - Visualização de dados e estatística experimental</h3>
+<div id="parte-2---visualização-de-dados-e-estatística-experimental" class="section level3 unnumbered">
+<h3>Parte 2 - Visualização de dados e estatística experimental</h3>
 <ul>
 <li>Processamento e análise gráfica de dados</li>
 </ul>
@@ -249,11 +246,13 @@ Horário: 09 às 11h30</p>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
@@ -268,6 +267,10 @@ gitbook.start({
 "text": null
 },
 "history": {
+"link": null,
+"text": null
+},
+"view": {
 "link": null,
 "text": null
 },

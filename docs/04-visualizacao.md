@@ -1,5 +1,4 @@
-
-# (PART\*) Dia II  {-}
+# (PART\*) Parte II  {-}
 
 # Visualização {-}
 

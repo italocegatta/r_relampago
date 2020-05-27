@@ -1,4 +1,3 @@
-
 # Joins {-}
 
 Estamos juntando dados de tabelas o tempo todo. Por diversos motivos parte das informações estão em uma tabela e parte estão em outra e precisamos parear esses dados para seguir com a análise. No Excel essa movimentação é feita pela função `PROCV()`, só que de maneira mais limitada.
@@ -66,14 +65,14 @@ anti_join(x, y)
 
 
 ```
-#> Observations: 1,704
-#> Variables: 6
-#> $ country   <fct> Afghanistan, Afghanistan, Afghanistan, Afghanistan, ...
-#> $ continent <fct> Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia...
-#> $ year      <int> 1952, 1957, 1962, 1967, 1972, 1977, 1982, 1987, 1992...
-#> $ lifeExp   <dbl> 28.801, 30.332, 31.997, 34.020, 36.088, 38.438, 39.8...
-#> $ pop       <int> 8425333, 9240934, 10267083, 11537966, 13079460, 1488...
-#> $ gdpPercap <dbl> 779.4453, 820.8530, 853.1007, 836.1971, 739.9811, 78...
+#> Rows: 1,704
+#> Columns: 6
+#> $ country   <fct> Afghanistan, Afghanistan, Afghanistan, Afghanistan, Afgha...
+#> $ continent <fct> Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asi...
+#> $ year      <int> 1952, 1957, 1962, 1967, 1972, 1977, 1982, 1987, 1992, 199...
+#> $ lifeExp   <dbl> 28.801, 30.332, 31.997, 34.020, 36.088, 38.438, 39.854, 4...
+#> $ pop       <int> 8425333, 9240934, 10267083, 11537966, 13079460, 14880372,...
+#> $ gdpPercap <dbl> 779.4453, 820.8530, 853.1007, 836.1971, 739.9811, 786.113...
 ```
 <br>
 
@@ -140,13 +139,13 @@ anti_join(x, y)
 
 Dicas: filter, geom_tile.
 
-<img src="03-joins_files/figure-html/unnamed-chunk-11-1.png" width="672" />
+<img src="03-joins_files/figure-html/unnamed-chunk-10-1.png" width="672" />
 
 
 (@) **Faça um gráfico de dispersão com a area do continente e a renda per capta. Para isso, considere `GDP = gdpPercap * pop` como o PIB do país. Em seguida some o PIB em função do continente. A tabela `continents` informa a população do continente, divida o PIB do continente pela população do mesmo e salve e chame essa variável de `per_cap`, faça o gráfico proposto em seguida.**
 
 Dicas: summarize, left_join, geom_text, nudge_y.
 
-<img src="03-joins_files/figure-html/unnamed-chunk-12-1.png" width="672" />
+<img src="03-joins_files/figure-html/unnamed-chunk-11-1.png" width="672" />
 
 

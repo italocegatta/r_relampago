@@ -1,4 +1,3 @@
-
 # Sobre o R {-}
 
 Se dedicar para aprender uma nova linguagem de programação não é uma tarefa fácil. Principalmente para quem não tem um background de lógica de programação.
