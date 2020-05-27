@@ -1,6 +1,5 @@
 ---
 title: "R para análise de dados"
-author: "Ítalo Cegatta"
 site: bookdown::bookdown_site
 documentclass: book
 ---
